@@ -1,0 +1,53 @@
+/* Base Styles */
+body{
+    margin: 16px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: .75rem;
+}
+
+/* Layout Styles */
+
+/* Block Styles */
+.section{
+    text-align: center;
+    display: grid;
+}
+
+.hero{
+    display:grid;
+    grid-area: 2/2;
+    justify-content: center;
+    text-align: center;
+    grid-template-columns: 50% 50%;
+    margin: 30px;
+}
+
+.hero img{
+    width: 6em
+}
+
+@media only screen and (min-width: 500px){
+    .body{
+        margin: 24px;
+
+        p{
+            font-size: 1rem;
+        }
+        
+    }
+
+    .section{
+
+    }
+    .hero{
+        grid-template-columns: 20% 20% 20% 20%;
+        justify-content: center;
+    }
+}
