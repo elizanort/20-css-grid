@@ -15,14 +15,13 @@ p{
 /* Layout Styles */
 
 /* Block Styles */
-.section{
+body{
     text-align: center;
     display: grid;
 }
 
 .hero{
     display:grid;
-    grid-area: 2/2;
     justify-content: center;
     text-align: center;
     grid-template-columns: 50% 50%;
